@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Card</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Times New Roman';
+    }
+
+    body{
+      background:black;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:200vh;
+    }
+
+    .card{
+      width:1000px;
+      background:#1ecaf586;
+      border-radius:10px;
+      overflow:hidden;
+      box-shadow:0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .top-section{
+      height:400px;
+      background:
+	  linear-gradient(rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)),
+       url("img1.jpeg")
+      center/cover no-repeat;
+
+      padding:30px;
+      color:rgb(255, 255, 255);
+    }
+
+    .profile-img{
+      width:90px;
+      height:90px;
+      border-radius:50%;
+      border:4px solid rgba(255, 255, 255, 0.904);
+      object-fit:cover;
+    }
+
+    .name{
+      margin-top:15px;
+      font-size:50px;
+      font-weight:bold;
+    }
+
+    .role{
+      font-size:20px;
+      margin-top:5px;
+	  color:rgba(255,255,255,0.5);
+    }
+
+    .glance-title{
+      font-size:30px;
+      margin:20px 30px;
+      color:rgba(255,255,255,0.5);
+    }
+
+    .details{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+    padding:0 30px 30px;
+    color:white;
+    }
+
+    .details div{
+      border-left:3px solid rgba(255,255,255,0.4);
+      padding-left:10px;
+    }
+
+    .details h3{
+      margin-bottom:8px;
+      font-size:16px;
+	  color: rgba(100, 149, 237, 0.5);
+    }
+
+    .about{
+    padding:30px;
+    color:white;
+    background:#1a8fdc;
+}
+
+    .about h2{
+      font-size:35px;
+      border-left:4px solid rgba(255,255,255,0.4);
+      padding-left:10px;
+      margin-bottom:20px;
+    }
+
+    .about p{
+      line-height:2;
+      margin-bottom:20px;
+      color:#eaf9ff;
+    }
+
+    .quote::before{
+    content:'"';
+    color:#80ccff;
+    font-size:40px;
+    font-weight:bold;
+    margin-right:5px;
+}
+  </style>
+
+</head>
+
+<body>
+
+  <div class="card">
+
+    
+
+    <div class="top-section">
+
+      <img
+      class="profile-img"
+      src="img2.jpeg"
+      alt="Profile">
+
+      <h1 class="name">
+        Jonathan Atkinson
+      </h1>
+
+      <p class="role">
+        UX Specialist
+      </p>
+
+    </div>
+
+    
+
+    <h2 class="glance-title">
+      AT A GLANCE
+    </h2>
+
+    
+
+    <div class="details">
+
+      <div>
+        <h3>FULL NAME</h3>
+        <p>Bruce'the bat'Wayne</p>
+      </div>
+
+      <div>
+        <h3>BIRTH PLACE</h3>
+        <p>Lancashire,England</p>
+      </div>
+
+      <div>
+        <h3>BORN</h3>
+        <p>1970</p>
+      </div>
+
+      <div>
+        <h3>RESIDENCE</h3>
+        <p>Mechanicsburg,OH</p>
+      </div>
+	  
+	  <div>
+        <h3>EDUCATION</h3>
+        <p>BS,MS,MBA</p>
+      </div>
+	  
+	  <div>
+        <h3>HOBBIES</h3>
+        <p>Television,Movies,Art</p>
+      </div>
+
+    </div>
+
+    
+
+    <div class="about">
+
+      <h2>ABOUT ME</h2>
+
+      <p>
+
+        Lorem ipsum dolor sit amet,consectetuer adipiscing elit.Morbi commodo,<strong>ipsum sed pharetra gravida</strong>,orci magna rhoncus neque,id pulvinar odio lorem non turpis.Nullam sit amet enim.suspendisse id velit vitae ligula volutpat condimentum.Aliquam erat volupat.sed quis velit nulla facillisi.nulla libero.
+
+      </p>
+
+      <p class="quote">
+
+			I wish to expand my skills on a daily basis with the
+			help of an employee-focused company.
+
+      </p>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+            
+            
+            
